@@ -1,1 +1,2 @@
 # UserJsonApp
+ 20220720 Android Studioにて、WebViewでなく、ボタンクリックによりHTTP通信で、localhost:3000/usersのJson文字列を抜粋および全文を取得しTextViewに表示することができた。
