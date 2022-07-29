@@ -72,29 +72,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ScrollView
-        android:id="@+id/svTvAll"
+<!--    <ScrollView-->
+<!--        android:id="@+id/svTvAll"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:textAlignment="center"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/btnClear"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvAddress"-->
+<!--        app:layout_constraintVertical_bias="0.0">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvAll"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="全情報"-->
+<!--            android:textAlignment="center"-->
+<!--            tools:text="@string/json" />-->
+<!--    </ScrollView>-->
+
+    <ListView
+        android:id="@+id/lvAll"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="10dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="10dp"
         android:layout_marginBottom="24dp"
-        android:textAlignment="center"
+        android:layout_marginHorizontal="10dp"
         app:layout_constraintBottom_toTopOf="@+id/btnClear"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAddress"
-        app:layout_constraintVertical_bias="0.0">
-
-        <TextView
-            android:id="@+id/tvAll"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="全情報"
-            android:textAlignment="center"
-            tools:text="@string/json" />
-    </ScrollView>
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

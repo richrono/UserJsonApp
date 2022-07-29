@@ -12,7 +12,7 @@ import retrofit2.Retrofit
 import retrofit2.http.GET
 import retrofit2.http.Header
 
-//Ver2---------------------------------------
+//Ver2-btnFuture-User.all-api/v1 uses accessToken DoorkeeperAuthorized------------------------------------
 //↓bk2
 private val BEARER_TOKEN = "RgxJBukZukKYP433n-Dh66YzHZHYicph3FMeqpCmjkg"
 private val BASE_URL = "http://10.0.2.2:3000/api/v1/statuses/"
@@ -210,7 +210,7 @@ class MainActivity : AppCompatActivity() {
 //    }
 //}
 
-//ver.1----------------------------------------------------------
+//ver.1-SpecificUser with change(num) and User.all but unauthorized-because no use api/v1, no meaning api token---------------
 // ↓bk
 // class MainActivity : AppCompatActivity() {
 //    override fun onCreate(savedInstanceState: Bundle?) {
